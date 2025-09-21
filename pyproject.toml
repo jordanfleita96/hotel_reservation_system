@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hotel-reservation-system"
+version = "0.1.0"
+description = "Demo hotel reservation system showing OOP + Factory/Observer/Adapter patterns."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Yordan Yordanov", email = "jordanfleita@gmail.com" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jordanfleita96/hotel_reservation_system"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
